@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <fieldset>
+                <legend>Application</legend>
+                    <form>
+
+                <table> 
+                <tr>
+                    <td> Name :<sup style="color:red">*</sup></td>
+                    <td><input type="text" size=10 maxlength=100 autofocus value="Mr.chakri" name="txt_name"> </td>
+                </tr>
+                
+                <tr>
+                <td>Email:</td>
+                <td><input type="email" size="10" placeholder="Enter email"></td>
+                </tr>
+                
+                <tr>
+                    <td>Mobile no:</td>
+                    <td>                   
+                <select>
+                    <optgroup label="select country">
+                    <option>91</option>
+                    <option>85</option>
+                    <option>72</option>
+                    </optgroup>
+                </select>
+                <input type="text" size=10></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Applying for:</td>
+                <td>
+                    <input type="radio" name="rd_course" value="opt1">UG
+                    <input type="radio" name="rd_course" value="op2"> PG
+                    <input type="radio" name="rd_course" value="opt3">diploma
+                    <input type="radio" name="rd_course" value="opt4">lateral
+                    
+                </td>
+            </tr>
+            <tr>
+                <td></td>  <td> <input type="checkbox" checked> Did you verify the above data...</td>
+            </tr>
+            <tr>
+                <td>upload 10th mark </td>
+                <td><input type="file"> </td>
+            </tr>
+            <tr>  <td> </td>
+                <td> <meter value="2" min="0" max="10"</meter>
+                    </td>
+              
+            </tr>
+            <tr>
+                <td><input type="submit" value="....click me..."></td>
+                <td> <input type="reset" value="clear"></td>
+            </tr>
+            </table>
+            
+        </form>
+        </fieldset>
+    </body>
+</html>
